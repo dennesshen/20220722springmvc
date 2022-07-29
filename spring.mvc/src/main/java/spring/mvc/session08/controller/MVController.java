@@ -5,13 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/hello")
+@RequestMapping("/mv")
 public class MVController {
 	
-	@RequestMapping("/welcome")
-	@ResponseBody
-	public String welcome() {
-
-		return "Welcome SpringMVC";
-	}
+	
 }
