@@ -156,6 +156,14 @@
 			<version>1.2.4</version>
 		</dependency>
 		
+		<!-- Hibernate Validator -->
+		<dependency>
+		    <groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-validator</artifactId>
+		    <version>5.4.1.Final</version>
+		</dependency>
+		
+		
 		
 		
 	</dependencies>

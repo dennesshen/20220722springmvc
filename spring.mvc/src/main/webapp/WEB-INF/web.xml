@@ -29,6 +29,7 @@
     </servlet-mapping>
     
     <!-- 中文支援 -->
+    
 	<filter>
         <filter-name>springUtf8Encoding</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -48,6 +49,7 @@
     </filter-mapping>
     
     <!-- 解決傳統html, javascript 不支援PUT、DELETE 方法的問題 -->
+    
     <filter>
         <filter-name>HiddenHttpMethodFilter</filter-name>
         <filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>
@@ -57,6 +59,8 @@
         <filter-name>HiddenHttpMethodFilter</filter-name>
         <url-pattern>/mvc/*</url-pattern>
     </filter-mapping>
+    
+     
     
   
 </web-app>
